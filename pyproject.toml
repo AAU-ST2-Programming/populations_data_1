@@ -1,0 +1,19 @@
+[project]
+name = "populations-data-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker>=40.1.0",
+    "jupyter>=1.1.1",
+    "jupyter-ruff>=0.3.0",
+    "jupyterlab>=4.5.1",
+    "jupyterlab-rise>=0.43.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "xlsxwriter>=3.2.9",
+]
