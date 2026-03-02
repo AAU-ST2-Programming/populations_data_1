@@ -1,36 +1,76 @@
 # Lineær regression med populationsdata
-- **Lecture specific `files`** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
+
+- **Lecture specific files**: files/* - `En mappe som indeholder filer I skal bruge i forbindelse med forlæsningen.`
+
 ---
 
-## ​ Usage
+## Forberedelse til lektionen
+
+Følg denne guide nøje for at være klar til undervisningen:
+
+### 1. Literatur
+
+**Primær litteratur:**
+- [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
+  - Kapitel 9.2.2 From data to (linear) models 
+
+**Supplerende litteratur:**
+- [GeeksforGeeks: ML | Linear Regression](https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/)
+- [TutorialsPoint: SciPy - Linear Curve Fitting](https://www.tutorialspoint.com/scipy/scipy_linear_curve_fitting.htm)
+- [scikit-learn: LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
+
+**Formål:** Forstå hvordan regression bruges til at modellere og validere sammenhænge i populationsdata.
+
+---
+
+### 2. Installationer og opsætning
+- Følg denne guide for at installere Python:  
+  [Install Python Guide](https://github.com/AAU-Python-Guides/install_python_guide)
+- Følg denne guide for at sætte VS Code op til Python:  
+  [VS Code for Python Guide](https://github.com/AAU-Python-Guides/visual_studio_code_for_python)
+- Installer følgende extensions i Visual Studio Code:
+  - `Python`
+  - `jupyter`
+
+### 3. Download materialet
 > ```zsh
+> cd ~
 > git clone https://github.com/AAU-ST2-Programming/populations_data_1.git
 > cd populations_data_1
 > git pull
 > ```
 
-## Forberedelse
+---
 
-Til hver lektion skal man forvente følgende:
+## Lektionens fokus
 
-Før/efter Kursusgang:
-- Gennemgang af tidligere kursusgange
-  - Vi bygger altid ovenpå tidligere kursusgange
-- Gennemgå nyt materiale, som vil være beskrevet i denne readme
+- Simpel lineær regression: hældning, skæring og fortolkning
+- OLS-udledning og praktisk implementering i NumPy/sklearn
+- Modelevaluering med R², RMSE og residualplots
+- Multiple lineær regression med flere features
+- Håndtering af manglende data og outliers
+- Reproducerbar dokumentation og etiske overvejelser i helbredsdata
 
-Tiden er sat således at der vil være:
+---
 
-- 4 timers forberedelser (der hjemme, før undervisning)
-- 4 timers undervisning og samlet opgave regning
-- 4 timers individuel opgaveregning (der hjemme, efter undervisning)
+## Forventninger til forberedelse og undervisning
 
-## Spørgsmål noter
+- **Før/efter kursusgang:**
+  - Gennemgå tidligere kursusgange (vi bygger videre hver gang)
+  - Læs nyt materiale som beskrevet ovenfor
+- **Tidsforbrug:**
+  - 4 timers forberedelse (hjemme, før undervisning)
+  - 4 timers undervisning og gruppeopgaver
+  - 4 timers individuel opgaveregning (hjemme, efter undervisning)
+
+---
+
+## Spørgsmål og opgaver
 
 - Til hver opgave i undervisningen vil der være:
-  - En opgave beskrivelse,
-  - En guide til hvordan man udfører opgaven.
+  - En opgavebeskrivelse
+  - En guide til hvordan opgaven løses
   - Svar på opgaven
-- Spørgsmålene i opgaveregningen bliver generelt set mere komplicerede, 
-  - De sidste opgaver er en blanding af både den nuværende kursusgang, samt tidligere kursusgange.
-- Til eksamen vil der kun være en opgave beskrivelse.
-  - Det vil altså være op til jer at kunne se hvordan en opgave skal løses ud fra opgave beskrivelsen.
+- Opgaverne bliver gradvist sværere og bygger på tidligere lektioner.
+- Til eksamen vil der kun være en opgavebeskrivelse – du skal selv kunne vurdere, hvordan opgaven løses.
