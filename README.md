@@ -13,6 +13,8 @@ Følg denne guide nøje for at være klar til undervisningen:
 **Primær litteratur:**
 - [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
   - Kapitel 9.2.2 From data to (linear) models 
+  - Kapitel 5.1.1 Sample quantiles
+  - Kapitel 15.1 15.4 Missing Data and Outliers 
 
 **Supplerende litteratur:**
 - [GeeksforGeeks: ML | Linear Regression](https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/)
